@@ -1,0 +1,150 @@
+[submodule "awesome-jailbreak-on-llms"]
+	path = awesome-jailbreak-on-llms
+	url = https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs.git
+	branch = main
+	shallow = true
+[submodule "automated-multi-turn-jailbreaks"]
+	path = automated-multi-turn-jailbreaks
+	url = https://github.com/AIM-Intelligence/Automated-Multi-Turn-Jailbreaks.git
+	branch = main
+	shallow = true
+[submodule "jailbreak-radar"]
+	path = jailbreak-radar
+	url = https://github.com/Junjie-Chu/JailbreakRadar_Backup.git
+	branch = main
+	shallow = true
+[submodule "hermes-jailbench"]
+	path = hermes-jailbench
+	url = https://github.com/hermes-labs-ai/hermes-jailbench.git
+	branch = main
+	shallow = true
+[submodule "himrd-jailbreak"]
+	path = himrd-jailbreak
+	url = https://github.com/MaTengSYSU/HIMRD-jailbreak.git
+	branch = main
+	shallow = true
+[submodule "epistemic-frame-probe"]
+	path = epistemic-frame-probe
+	url = https://github.com/VesperArch/epistemic-frame-probe.git
+	branch = main
+	shallow = true
+[submodule "llm-alignment-research"]
+	path = llm-alignment-research
+	url = https://github.com/malapeiro/llm-alignment-research.git
+	branch = main
+	shallow = true
+[submodule "fenrir"]
+	path = fenrir
+	url = https://github.com/pepijnfrenken/fenrir.git
+	branch = master
+	shallow = true
+[submodule "gpt6-astra"]
+	path = gpt6-astra
+	url = https://github.com/3641397194-wq/gpt6-Astra.git
+	branch = main
+	shallow = true
+[submodule "togg-jailbreaks"]
+	path = togg-jailbreaks
+	url = https://github.com/togg53192-cmd/jailbreaks.git
+	branch = main
+	shallow = true
+[submodule "quincunx-ai-jailbreak"]
+	path = quincunx-ai-jailbreak
+	url = https://github.com/Quincunx33/Ai-jailbreak.git
+	branch = main
+	shallow = true
+[submodule "happy-prompts"]
+	path = happy-prompts
+	url = https://github.com/davidegat/happy-prompts.git
+	branch = main
+	shallow = true
+[submodule "ai-prompt-jailbreak"]
+	path = ai-prompt-jailbreak
+	url = https://github.com/execunix228/AI-Prompt-Jalbreak-.git
+	branch = main
+	shallow = true
+[submodule "aijbreak-collection"]
+	path = aijbreak-collection
+	url = https://github.com/therealtnme/AI-JBreak-Collection.git
+	branch = main
+	shallow = true
+[submodule "lalipa-jailbreakhub"]
+	path = lalipa-jailbreakhub
+	url = https://github.com/lalipa2003-arch/JailbreakHub.git
+	branch = main
+	shallow = true
+[submodule "chatgpt-dan"]
+	path = chatgpt-dan
+	url = https://github.com/0xk1h0/chatgpt_dan.git
+	branch = main
+	shallow = true
+[submodule "ai-jailbreak-master-list"]
+	path = ai-jailbreak-master-list
+	url = https://github.com/anxiouslingu/AI-Jailbreak-Master-List.git
+	branch = main
+	shallow = true
+[submodule "dan-prompt-2026"]
+	path = dan-prompt-2026
+	url = https://github.com/grizzledgoss/DAN-Prompt-2026.git
+	branch = main
+	shallow = true
+[submodule "llm-jailbreaks"]
+	path = llm-jailbreaks
+	url = https://github.com/langgptai/LLM-Jailbreaks.git
+	branch = main
+	shallow = true
+[submodule "xgpt-wormgpt"]
+	path = xgpt-wormgpt
+	url = https://github.com/gaur-avvv/XGPT-WormGPT.git
+	branch = main
+	shallow = true
+[submodule "hacxgpt-jailbreak-prompts"]
+	path = hacxgpt-jailbreak-prompts
+	url = https://github.com/BlackTechX011/HacxGPT-Jailbreak-prompts.git
+	branch = main
+	shallow = true
+[submodule "grok-unrestricted-contract"]
+	path = grok-unrestricted-contract
+	url = https://github.com/TLcmmmm/grok-unrestricted-contract.git
+	branch = main
+	shallow = true
+[submodule "gpt-advance-prompt-library"]
+	path = gpt-advance-prompt-library
+	url = https://github.com/1999AZZAR/gpt-advance-prompt-library.git
+	branch = master
+	shallow = true
+[submodule "all-ai-jailbreaks"]
+	path = all-ai-jailbreaks
+	url = https://github.com/buryusu/All-AI-Jailbreaks.git
+	branch = main
+	shallow = true
+[submodule "sheogoraths-champion-jailbreak"]
+	path = sheogoraths-champion-jailbreak
+	url = https://github.com/numbpill3d/SHEOGORATHS_CHAMPION_ai.JAILBREAK.git
+	branch = main
+	shallow = true
+[submodule "llm-vuln-scanner"]
+	path = llm-vuln-scanner
+	url = https://github.com/ridpath/llm-vuln-scanner.git
+	branch = main
+	shallow = true
+[submodule "prompt-hacking-classifier"]
+	path = prompt-hacking-classifier
+	url = https://github.com/rb81/prompt-hacking-classifier.git
+	branch = main
+	shallow = true
+[submodule "mindgard-prompt-jailbreak"]
+	path = mindgard-prompt-jailbreak
+	url = https://github.com/Mindgard/prompt_jailbreak.git
+	branch = main
+	shallow = true
+[submodule "hackmegpt"]
+	path = hackmegpt
+	url = https://github.com/M507/HackMeGPT.git
+	branch = master
+	shallow = true
+[submodule "jailbreak-prompt-generator"]
+	path = jailbreak-prompt-generator
+	url = https://github.com/rahulrshetty45/jailbreak-prompt-generator.git
+	branch = main
+	shallow = true

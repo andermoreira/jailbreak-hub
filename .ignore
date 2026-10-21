@@ -1,0 +1,25 @@
+# Ignored by rg/fd only. Keeps local search focused on textual research content.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.ico
+*.pdf
+*.zip
+*.gz
+*.tar
+*.7z
+*.woff
+*.woff2
+*.ttf
+*.mp4
+*.webm
+*.mov
+*.mp3
+**/node_modules/
+**/.venv/
+**/venv/
+**/dist/
+**/build/
