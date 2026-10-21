@@ -148,3 +148,123 @@
 	url = https://github.com/rahulrshetty45/jailbreak-prompt-generator.git
 	branch = main
 	shallow = true
+[submodule "llm-attacks"]
+	path = llm-attacks
+	url = https://github.com/llm-attacks/llm-attacks.git
+	branch = main
+	shallow = true
+[submodule "pair-jailbreaking"]
+	path = pair-jailbreaking
+	url = https://github.com/patrickrchao/JailbreakingLLMs.git
+	branch = main
+	shallow = true
+[submodule "gptfuzz"]
+	path = gptfuzz
+	url = https://github.com/hubertyoo/GPTFuzz.git
+	branch = master
+	shallow = true
+[submodule "masterkey"]
+	path = masterkey
+	url = https://github.com/LLMSecurity/MasterKey.git
+	branch = master
+	shallow = true
+[submodule "llm-security-greshake"]
+	path = llm-security-greshake
+	url = https://github.com/greshake/llm-security.git
+	branch = main
+	shallow = true
+[submodule "open-prompt-injection"]
+	path = open-prompt-injection
+	url = https://github.com/liu00222/Open-Prompt-Injection.git
+	branch = main
+	shallow = true
+[submodule "i-fsj"]
+	path = i-fsj
+	url = https://github.com/sail-sg/I-FSJ.git
+	branch = main
+	shallow = true
+[submodule "autodefense"]
+	path = autodefense
+	url = https://github.com/XHMY/AutoDefense.git
+	branch = main
+	shallow = true
+[submodule "goal-priority-defense"]
+	path = goal-priority-defense
+	url = https://github.com/thu-coai/JailbreakDefense_GoalPriority.git
+	branch = master
+	shallow = true
+[submodule "harmbench"]
+	path = harmbench
+	url = https://github.com/centerforaisafety/HarmBench.git
+	branch = main
+	shallow = true
+[submodule "jailbreakbench"]
+	path = jailbreakbench
+	url = https://github.com/JailbreakBench/jailbreakbench.git
+	branch = main
+	shallow = true
+[submodule "jailbreak-llms-dataset"]
+	path = jailbreak-llms-dataset
+	url = https://github.com/verazuo/jailbreak_llms.git
+	branch = main
+	shallow = true
+[submodule "jailtrickbench"]
+	path = jailtrickbench
+	url = https://github.com/usail-hkust/JailTrickBench.git
+	branch = main
+	shallow = true
+[submodule "strongreject"]
+	path = strongreject
+	url = https://github.com/dsbowen/strong_reject.git
+	branch = main
+	shallow = true
+[submodule "omnisafebench-mm"]
+	path = omnisafebench-mm
+	url = https://github.com/jiaxiaojunQAQ/OmniSafeBench-MM.git
+	branch = main
+	shallow = true
+[submodule "mllm-jailbreak-bench"]
+	path = mllm-jailbreak-bench
+	url = https://github.com/ziyuwowo/mllm-jailbreak-bench.git
+	branch = main
+	shallow = true
+[submodule "awesome-multimodal-jailbreak"]
+	path = awesome-multimodal-jailbreak
+	url = https://github.com/liuxuannan/Awesome-Multimodal-Jailbreak.git
+	branch = main
+	shallow = true
+[submodule "purplellama"]
+	path = purplellama
+	url = https://github.com/meta-llama/PurpleLlama.git
+	branch = main
+	shallow = true
+[submodule "garak"]
+	path = garak
+	url = https://github.com/NVIDIA/garak.git
+	branch = main
+	shallow = true
+[submodule "llm-guard"]
+	path = llm-guard
+	url = https://github.com/protectai/llm-guard.git
+	branch = main
+	shallow = true
+[submodule "vigil-llm"]
+	path = vigil-llm
+	url = https://github.com/deadbits/vigil-llm.git
+	branch = main
+	shallow = true
+[submodule "l1b3rt4s"]
+	path = l1b3rt4s
+	url = https://github.com/elder-plinius/L1B3RT4S.git
+	branch = main
+	shallow = true
+[submodule "awesome-prompt-injection"]
+	path = awesome-prompt-injection
+	url = https://github.com/Joe-B-Security/awesome-prompt-injection.git
+	branch = main
+	shallow = true
+[submodule "awesome-llm-red-teaming"]
+	path = awesome-llm-red-teaming
+	url = https://github.com/user1342/Awesome-LLM-Red-Teaming.git
+	branch = main
+	shallow = true

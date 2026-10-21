@@ -6,18 +6,53 @@ Repositório que agrega, em um único local pesquisável, fontes públicas sobre
 
 ## Conteúdo
 
-### Pesquisa, benchmarks e defesa
+### Ataques e fundamentos
+
+| Pasta | Fonte | Cobertura | Licença |
+| --- | --- | --- | --- |
+| `llm-attacks/` | [llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks) | GCG e AdvBench: ataques adversariais universais e transferíveis contra LLMs alinhados. | MIT |
+| `pair-jailbreaking/` | [patrickrchao/JailbreakingLLMs](https://github.com/patrickrchao/JailbreakingLLMs) | PAIR: jailbreak automático em caixa-preta com LLM atacante e juiz. | MIT |
+| `gptfuzz/` | [hubertyoo/GPTFuzz](https://github.com/hubertyoo/GPTFuzz) | GPTFuzzer: geração automática de prompts de jailbreak por fuzzing. | MIT |
+| `masterkey/` | [LLMSecurity/MasterKey](https://github.com/LLMSecurity/MasterKey) | MASTERKEY: automação de ataques jailbreak e avaliação de defesas em chatbots. | Apache-2.0 |
+| `llm-security-greshake/` | [greshake/llm-security](https://github.com/greshake/llm-security) | Prompt injection indireta em LLMs integrados a aplicações e agentes. | MIT |
+| `i-fsj/` | [sail-sg/I-FSJ](https://github.com/sail-sg/I-FSJ) | Improved Few-Shot Jailbreaking: ataques com poucos exemplos (NeurIPS 2024). | MIT |
+| `himrd-jailbreak/` | [MaTengSYSU/HIMRD-jailbreak](https://github.com/MaTengSYSU/HIMRD-jailbreak) | HIMRD: ataque multimodal baseado em distribuição de risco (paper). | AGPL-3.0 |
+
+### Benchmarks, datasets e avaliação
 
 | Pasta | Fonte | Cobertura | Licença |
 | --- | --- | --- | --- |
 | `awesome-jailbreak-on-llms/` | [yueliu1999/Awesome-Jailbreak-on-LLMs](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs) | Survey de métodos, papers, datasets e avaliações de jailbreak em LLMs. | MIT |
-| `automated-multi-turn-jailbreaks/` | [AIM-Intelligence/Automated-Multi-Turn-Jailbreaks](https://github.com/AIM-Intelligence/Automated-Multi-Turn-Jailbreaks) | Código e experimentos com ataques automatizados multi-turno. | Sem licença |
-| `jailbreak-radar/` | [Junjie-Chu/JailbreakRadar_Backup](https://github.com/Junjie-Chu/JailbreakRadar_Backup) | Código do artigo JailbreakRadar (ACL 2025): avaliação abrangente de ataques contra LLMs. | Sem licença |
+| `harmbench/` | [centerforaisafety/HarmBench](https://github.com/centerforaisafety/HarmBench) | HarmBench: framework padronizado de red teaming automatizado e recusa robusta. | MIT |
+| `jailbreakbench/` | [JailbreakBench/jailbreakbench](https://github.com/JailbreakBench/jailbreakbench) | JailbreakBench: benchmark aberto de robustez para jailbreaks (NeurIPS 2024). | MIT |
+| `strongreject/` | [dsbowen/strong_reject](https://github.com/dsbowen/strong_reject) | StrongREJECT: benchmark e juiz para medir a força de jailbreaks. | MIT |
+| `jailtrickbench/` | [usail-hkust/JailTrickBench](https://github.com/usail-hkust/JailTrickBench) | JailTrickBench: benchmark dos "truques" empíricos de jailbreak (NeurIPS 2024). | MIT |
+| `jailbreak-llms-dataset/` | [verazuo/jailbreak_llms](https://github.com/verazuo/jailbreak_llms) | 15.140 prompts do ChatGPT, incluindo 1.405 jailbreaks, coletados na web (CCS'24). | MIT |
+| `open-prompt-injection/` | [liu00222/Open-Prompt-Injection](https://github.com/liu00222/Open-Prompt-Injection) | Benchmark de ataques e defesas de prompt injection em LLMs. | MIT |
+| `omnisafebench-mm/` | [jiaxiaojunQAQ/OmniSafeBench-MM](https://github.com/jiaxiaojunQAQ/OmniSafeBench-MM) | OmniSafeBench-MM: benchmark e toolbox multimodal de ataque/defesa. | Sem licença |
+| `mllm-jailbreak-bench/` | [ziyuwowo/mllm-jailbreak-bench](https://github.com/ziyuwowo/mllm-jailbreak-bench) | Benchmark reproduzível de ataques adversariais em MLLMs. | Licença customizada |
 | `hermes-jailbench/` | [hermes-labs-ai/hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) | Benchmark determinístico de regressão de jailbreak para endpoints LLM. | Apache-2.0 |
-| `himrd-jailbreak/` | [MaTengSYSU/HIMRD-jailbreak](https://github.com/MaTengSYSU/HIMRD-jailbreak) | Código do HIMRD: ataque multimodal baseado em distribuição de risco. | AGPL-3.0 |
+| `jailbreak-radar/` | [Junjie-Chu/JailbreakRadar_Backup](https://github.com/Junjie-Chu/JailbreakRadar_Backup) | JailbreakRadar (ACL 2025): avaliação abrangente de ataques contra LLMs. | Sem licença |
+| `automated-multi-turn-jailbreaks/` | [AIM-Intelligence/Automated-Multi-Turn-Jailbreaks](https://github.com/AIM-Intelligence/Automated-Multi-Turn-Jailbreaks) | Código e experimentos com ataques automatizados multi-turno. | Sem licença |
+
+### Defesa, detecção e ferramentas
+
+| Pasta | Fonte | Cobertura | Licença |
+| --- | --- | --- | --- |
+| `purplellama/` | [meta-llama/PurpleLlama](https://github.com/meta-llama/PurpleLlama) | Llama Guard, Prompt Guard, CyberSecEval e outras ferramentas de segurança da Meta. | Licença customizada |
+| `garak/` | [NVIDIA/garak](https://github.com/NVIDIA/garak) | Garak: scanner de vulnerabilidades e probes de jailbreak/prompt injection. | Apache-2.0 |
+| `llm-guard/` | [protectai/llm-guard](https://github.com/protectai/llm-guard) | Toolkit de detecção e sanitização para interações com LLMs (arquivado). | MIT |
+| `vigil-llm/` | [deadbits/vigil-llm](https://github.com/deadbits/vigil-llm) | Vigil: detecção de prompt injection, jailbreak e entradas de risco. | Apache-2.0 |
+| `autodefense/` | [XHMY/AutoDefense](https://github.com/XHMY/AutoDefense) | AutoDefense: defesa multiagente contra ataques de jailbreak. | MIT |
+| `goal-priority-defense/` | [thu-coai/JailbreakDefense_GoalPriority](https://github.com/thu-coai/JailbreakDefense_GoalPriority) | Defesa por priorização de objetivos (ACL 2024). | Sem licença |
+| `prompt-hacking-classifier/` | [rb81/prompt-hacking-classifier](https://github.com/rb81/prompt-hacking-classifier) | Detector baseado em prompts e modelos pequenos para injection/jailbreak. | MIT |
+| `llm-vuln-scanner/` | [ridpath/llm-vuln-scanner](https://github.com/ridpath/llm-vuln-scanner) | Scanner de vulnerabilidades em LLMs locais: jailbreak, prompt injection e vazamento de dados. | MIT |
+| `mindgard-prompt-jailbreak/` | [Mindgard/prompt_jailbreak](https://github.com/Mindgard/prompt_jailbreak) | Demonstração de extração de system prompt via jailbreak em endpoints HuggingFace. | Sem licença |
+| `hackmegpt/` | [M507/HackMeGPT](https://github.com/M507/HackMeGPT) | Aplicação LLM intencionalmente vulnerável para treino e CTF. | MIT |
 | `epistemic-frame-probe/` | [VesperArch/epistemic-frame-probe](https://github.com/VesperArch/epistemic-frame-probe) | Classificador que separa frame epistêmico de conteúdo e estuda bypass por authority framing. | MIT |
-| `llm-alignment-research/` | [malapeiro/llm-alignment-research](https://github.com/malapeiro/llm-alignment-research) | Estudos de caso e metodologia sobre alinhamento e segurança de LLMs. | Licença customizada |
 | `fenrir/` | [pepijnfrenken/fenrir](https://github.com/pepijnfrenken/fenrir) | Toolkit de abliteration: localiza direções de recusa, remove e mede o que mudou. | MIT |
+| `llm-alignment-research/` | [malapeiro/llm-alignment-research](https://github.com/malapeiro/llm-alignment-research) | Estudos de caso e metodologia sobre alinhamento e segurança de LLMs. | Licença customizada |
+| `jailbreak-prompt-generator/` | [rahulrshetty45/jailbreak-prompt-generator](https://github.com/rahulrshetty45/jailbreak-prompt-generator) | Gerador de prompts de jailbreak para testes de red team. | Sem licença |
 
 ### Coleções de prompts e red teaming
 
@@ -40,18 +75,19 @@ Repositório que agrega, em um único local pesquisável, fontes públicas sobre
 | `gpt-advance-prompt-library/` | [1999AZZAR/gpt-advance-prompt-library](https://github.com/1999AZZAR/gpt-advance-prompt-library) | Biblioteca de prompts para casos de uso específicos, testada em ChatGPT e Bard. | Sem licença |
 | `all-ai-jailbreaks/` | [buryusu/All-AI-Jailbreaks](https://github.com/buryusu/All-AI-Jailbreaks) | Arquivo de experimentos de jailbreak e prompt injection para avaliação de robustez. | Sem licença |
 | `sheogoraths-champion-jailbreak/` | [numbpill3d/SHEOGORATHS_CHAMPION_ai.JAILBREAK](https://github.com/numbpill3d/SHEOGORATHS_CHAMPION_ai.JAILBREAK) | Framework de persona para testar persistência e limites de instrução. | MIT |
+| `l1b3rt4s/` | [elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S) | Coleção de alto risco de prompts de "liberation" para diversos modelos. | AGPL-3.0 |
 
-### Ferramentas, detectores e laboratórios
+### Listas e surveys
 
 | Pasta | Fonte | Cobertura | Licença |
 | --- | --- | --- | --- |
-| `llm-vuln-scanner/` | [ridpath/llm-vuln-scanner](https://github.com/ridpath/llm-vuln-scanner) | Scanner de vulnerabilidades em LLMs locais: jailbreak, prompt injection e vazamento de dados. | MIT |
-| `prompt-hacking-classifier/` | [rb81/prompt-hacking-classifier](https://github.com/rb81/prompt-hacking-classifier) | Detector baseado em prompts e modelos pequenos para injection/jailbreak. | MIT |
-| `mindgard-prompt-jailbreak/` | [Mindgard/prompt_jailbreak](https://github.com/Mindgard/prompt_jailbreak) | Demonstração de extração de system prompt via jailbreak em endpoints HuggingFace. | Sem licença |
-| `hackmegpt/` | [M507/HackMeGPT](https://github.com/M507/HackMeGPT) | Aplicação LLM intencionalmente vulnerável para treino e CTF. | MIT |
-| `jailbreak-prompt-generator/` | [rahulrshetty45/jailbreak-prompt-generator](https://github.com/rahulrshetty45/jailbreak-prompt-generator) | Gerador de prompts de jailbreak para testes de red team. | Sem licença |
+| `awesome-multimodal-jailbreak/` | [liuxuannan/Awesome-Multimodal-Jailbreak](https://github.com/liuxuannan/Awesome-Multimodal-Jailbreak) | Survey de ataques e defesas contra modelos multimodais generativos. | Sem licença |
+| `awesome-prompt-injection/` | [Joe-B-Security/awesome-prompt-injection](https://github.com/Joe-B-Security/awesome-prompt-injection) | Lista curada de artigos, ferramentas e recursos sobre prompt injection. | CC0-1.0 |
+| `awesome-llm-red-teaming/` | [user1342/Awesome-LLM-Red-Teaming](https://github.com/user1342/Awesome-LLM-Red-Teaming) | Recursos de treinamento, ferramentas e artigos sobre red teaming de LLMs. | MIT |
 
 ### Leituras e fontes externas
+
+Repositórios muito grandes ou plataformas cujo valor está no uso, não na leitura local, ficam apenas como links para manter o clone do hub gerenciável.
 
 | Fonte | Tipo | Tema |
 | --- | --- | --- |
@@ -59,6 +95,12 @@ Repositório que agrega, em um único local pesquisável, fontes públicas sobre
 | [Jailbreak Prompt Engineering — Emergent Mind](https://www.emergentmind.com/topics/jailbreak-prompt-engineering) | Verbete/topic overview | Taxonomias de prompts, taxas de sucesso, ataques iterativos e defesas. |
 | [Prompt Injection & LLM Jailbreaking: No Shell. No CVE. Just Text — sn0x](https://sn0xs-organization.gitbook.io/sn0x-order.org/blogs/prompt-injection-and-llm-jailbreaking-no-shell.-no-cve.-just-text) | Artigo | Prompt injection e jailbreak como classe de risco sem CVE. |
 | [RogueGPT: Unleashing Jailbreak Prompts on LLMs — Engineering Reports](https://onlinelibrary.wiley.com/doi/10.1002/eng2.70069) | Artigo científico (Wiley, 2026) | Estudo sobre jailbreak prompts e seus efeitos em LLMs. |
+| [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) | Padrão/referência | Principais riscos de segurança em aplicações com LLMs. |
+| [Microsoft PyRIT](https://github.com/microsoft/PyRIT) | Framework | Risk Identification Tool para avaliação de riscos em sistemas generativos. |
+| [Promptfoo](https://github.com/promptfoo/promptfoo) | Ferramenta | Testes, red teaming e scanning de prompts, agentes e RAGs. |
+| [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | Framework | Guardrails programáveis para aplicações conversacionais. |
+| [Tencent AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | Plataforma | Red teaming de infraestrutura de IA, agentes, MCP e jailbreak. |
+| [Confident AI DeepTeam](https://github.com/confident-ai/deepteam) | Framework | Red teaming de LLMs e agentes com cenários de ataque. |
 
 ## Setup Inicial
 
@@ -67,7 +109,7 @@ chmod +x setup-jailbreak-hub.sh
 ./setup-jailbreak-hub.sh
 ```
 
-O script lê o `.gitmodules` e inicializa os submodules (clone raso) nos commits fixados pelo hub. Ele não avança para o upstream, não altera arquivos versionados e não cria commits.
+O script lê o `.gitmodules` e inicializa os submodules (clone raso) nos commits fixados pelo hub. Ele não avança para o upstream, não altera arquivos versionados e não cria commits. O conjunto completo ocupa aproximadamente **1,3 GB** em disco após o clone raso; os maiores são `harmbench/`, `purplellama/` e `gpt6-astra/`.
 
 Para clonar o hub já com os submodules populados:
 
@@ -92,9 +134,11 @@ rg "prompt injection"
 Exemplos úteis:
 
 ```bash
-rg "jailbreak" awesome-jailbreak-on-llms llm-jailbreaks
+rg "GCG" llm-attacks harmbench
+rg "prompt injection" open-prompt-injection llm-security-greshake
+rg "Llama Guard|Prompt Guard" purplellama
 rg "refusal" fenrir llm-alignment-research
-rg "classifier" prompt-hacking-classifier epistemic-frame-probe
+rg "classifier" prompt-hacking-classifier epistemic-frame-probe garak
 rg "multi-turn" automated-multi-turn-jailbreaks hermes-jailbench
 ```
 
