@@ -268,3 +268,63 @@
 	url = https://github.com/user1342/Awesome-LLM-Red-Teaming.git
 	branch = main
 	shallow = true
+[submodule "system-prompts-leaks"]
+	path = system-prompts-leaks
+	url = https://github.com/asgeirtj/system_prompts_leaks.git
+	branch = main
+	shallow = true
+[submodule "system-prompts-ai-tools"]
+	path = system-prompts-ai-tools
+	url = https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git
+	branch = main
+	shallow = true
+[submodule "leaked-system-prompts"]
+	path = leaked-system-prompts
+	url = https://github.com/jujumilk3/leaked-system-prompts.git
+	branch = main
+	shallow = true
+[submodule "cl4r1t4s"]
+	path = cl4r1t4s
+	url = https://github.com/elder-plinius/CL4R1T4S.git
+	branch = main
+	shallow = true
+[submodule "claude-code-system-prompts"]
+	path = claude-code-system-prompts
+	url = https://github.com/Piebald-AI/claude-code-system-prompts.git
+	branch = main
+	shallow = true
+[submodule "awesome-ai-system-prompts"]
+	path = awesome-ai-system-prompts
+	url = https://github.com/dontriskit/awesome-ai-system-prompts.git
+	branch = main
+	shallow = true
+[submodule "chatgpt-system-prompt"]
+	path = chatgpt-system-prompt
+	url = https://github.com/LouisShark/chatgpt_system_prompt.git
+	branch = main
+	shallow = true
+[submodule "big-prompt-library"]
+	path = big-prompt-library
+	url = https://github.com/0xeb/TheBigPromptLibrary.git
+	branch = main
+	shallow = true
+[submodule "leakhub"]
+	path = leakhub
+	url = https://github.com/elder-plinius/LEAKHUB.git
+	branch = main
+	shallow = true
+[submodule "justask"]
+	path = justask
+	url = https://github.com/x-zheng16/JustAsk.git
+	branch = main
+	shallow = true
+[submodule "raccoonbench"]
+	path = raccoonbench
+	url = https://github.com/M0gician/RaccoonBench.git
+	branch = main
+	shallow = true
+[submodule "agentic-system-prompts"]
+	path = agentic-system-prompts
+	url = https://github.com/tallesborges/agentic-system-prompts.git
+	branch = main
+	shallow = true

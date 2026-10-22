@@ -77,6 +77,27 @@ Repositório que agrega, em um único local pesquisável, fontes públicas sobre
 | `sheogoraths-champion-jailbreak/` | [numbpill3d/SHEOGORATHS_CHAMPION_ai.JAILBREAK](https://github.com/numbpill3d/SHEOGORATHS_CHAMPION_ai.JAILBREAK) | Framework de persona para testar persistência e limites de instrução. | MIT |
 | `l1b3rt4s/` | [elder-plinius/L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S) | Coleção de alto risco de prompts de "liberation" para diversos modelos. | AGPL-3.0 |
 
+### System prompts, vazamentos e extração
+
+Esta seção reúne coleções de **system prompts** publicados ou extraídos de assistentes, agentes de código e ferramentas de IA. São úteis para estudar instruções de sistema, comportamento de recusa, ferramentas internas e técnicas de extração. O conteúdo é de terceiros e pode estar desatualizado, incompleto ou sujeito a direitos autorais e termos de uso; não é documentação oficial dos fornecedores.
+
+| Pasta | Fonte | Cobertura | Licença |
+| --- | --- | --- | --- |
+| `system-prompts-leaks/` | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Prompts verbatim de ChatGPT, Claude, Gemini, Grok, Cursor, Kimi e outros; curadoria e atualização frequentes. | CC0-1.0 |
+| `system-prompts-ai-tools/` | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | System prompts, ferramentas internas e modelos de dezenas de ferramentas de IA e coding agents. | GPL-3.0 |
+| `leaked-system-prompts/` | [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) | Coleção ampla de system prompts vazados de serviços baseados em LLM. | Sem licença |
+| `cl4r1t4s/` | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | Prompts, diretrizes e ferramentas extraídos de OpenAI, Anthropic, Google, xAI, Perplexity, Cursor e outros. | AGPL-3.0 |
+| `claude-code-system-prompts/` | [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | Componentes do system prompt do Claude Code, descrições de ferramentas e subagentes, com changelog por versão. | MIT |
+| `awesome-ai-system-prompts/` | [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | Coleção curada de prompts de ChatGPT, Claude, Perplexity, Manus, v0, Cursor e outros. | MIT |
+| `chatgpt-system-prompt/` | [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt) | Prompts de GPTs personalizados, instruções de sistema e técnicas de prompt leaking/injection. | MIT |
+| `big-prompt-library/` | [0xeb/TheBigPromptLibrary](https://github.com/0xeb/TheBigPromptLibrary) | System prompts, instruções, jailbreaks e prompts de proteção de diversos provedores. | MIT |
+| `leakhub/` | [elder-plinius/LEAKHUB](https://github.com/elder-plinius/LEAKHUB) | Hub comunitário para submissão, verificação e navegação de system prompts vazados. | AGPL-3.0 |
+| `justask/` | [x-zheng16/JustAsk](https://github.com/x-zheng16/JustAsk) | Pesquisa (ICML 2026) sobre agentes de código que revelam system prompts de LLMs de fronteira. | MIT (declarada no README) |
+| `raccoonbench/` | [M0gician/RaccoonBench](https://github.com/M0gician/RaccoonBench) | Benchmark de ataques de extração de prompt em aplicações integradas a LLMs (ACL 2024 Findings). | GPL-3.0 |
+| `agentic-system-prompts/` | [tallesborges/agentic-system-prompts](https://github.com/tallesborges/agentic-system-prompts) | Prompts e definições de ferramentas de agentes de código em produção. | MIT |
+
+> **Atenção:** prompts vazados podem conter material proprietário, desatualizado ou incompleto. Verifique a licença e os termos de uso de cada fonte antes de reutilizar; a inclusão aqui não valida a legalidade nem a exatidão do conteúdo. O `justask/` documenta a técnica de extração e declara explicitamente não endossar extração não autorizada.
+
 ### Listas e surveys
 
 | Pasta | Fonte | Cobertura | Licença |
@@ -109,7 +130,7 @@ chmod +x setup-jailbreak-hub.sh
 ./setup-jailbreak-hub.sh
 ```
 
-O script lê o `.gitmodules` e inicializa os submodules (clone raso) nos commits fixados pelo hub. Ele não avança para o upstream, não altera arquivos versionados e não cria commits. O conjunto completo ocupa aproximadamente **1,3 GB** em disco após o clone raso; os maiores são `harmbench/`, `purplellama/` e `gpt6-astra/`.
+O script lê o `.gitmodules` e inicializa os submodules (clone raso) nos commits fixados pelo hub. Ele não avança para o upstream, não altera arquivos versionados e não cria commits. O conjunto completo ocupa aproximadamente **1,6 GB** em disco após o clone raso; os maiores são `harmbench/`, `purplellama/` e `gpt6-astra/`.
 
 Para clonar o hub já com os submodules populados:
 
@@ -137,6 +158,7 @@ Exemplos úteis:
 rg "GCG" llm-attacks harmbench
 rg "prompt injection" open-prompt-injection llm-security-greshake
 rg "Llama Guard|Prompt Guard" purplellama
+rg "system prompt|You are" system-prompts-leaks leaked-system-prompts cl4r1t4s
 rg "refusal" fenrir llm-alignment-research
 rg "classifier" prompt-hacking-classifier epistemic-frame-probe garak
 rg "multi-turn" automated-multi-turn-jailbreaks hermes-jailbench
