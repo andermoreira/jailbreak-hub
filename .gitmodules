@@ -328,3 +328,27 @@
 	url = https://github.com/tallesborges/agentic-system-prompts.git
 	branch = main
 	shallow = true
+[submodule "spiritual-spell-red-teaming"]
+	path = spiritual-spell-red-teaming
+	url = https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming.git
+	branch = main
+[submodule "bug-bounty-hunting-prompts"]
+	path = bug-bounty-hunting-prompts
+	url = https://github.com/mdpsec/bug-bounty-hunting-prompts.git
+	branch = main
+[submodule "vac"]
+	path = vac
+	url = https://github.com/sapdragon/vac.git
+	branch = main
+[submodule "antigravity-filter-bypass"]
+	path = antigravity-filter-bypass
+	url = https://github.com/v1ktorrr0x/antigravity-filter-bypass.git
+	branch = main
+[submodule "bountyforge"]
+	path = bountyforge
+	url = https://github.com/Gabson0x/bountyforge.git
+	branch = main
+[submodule "viktor-blackhat"]
+	path = viktor-blackhat
+	url = https://github.com/v1ktorrr0x/viktor-blackhat.git
+	branch = main
